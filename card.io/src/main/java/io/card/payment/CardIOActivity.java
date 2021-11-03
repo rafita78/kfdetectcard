@@ -923,7 +923,7 @@ public final class CardIOActivity extends Activity {
                 mOverlay.setGuideColor(alphaRemovedColor);
             } else {
                 // default to greeeeeen
-                mOverlay.setGuideColor(Color.GREEN);
+                mOverlay.setGuideColor(Color.BLUE);
             }
 
             boolean hideCardIOLogo = getIntent().getBooleanExtra(EXTRA_HIDE_CARDIO_LOGO, false);
